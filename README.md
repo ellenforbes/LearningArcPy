@@ -6,6 +6,6 @@ For Code Snippets related to ArcPy
 https://drive.google.com/open?id=1otkH0oYoHRoKhM3FHEqTYsxMZv_voHp_kDlvPUgjBwA
 
 
-1.SelectionsAndCalculateFields
+# 1.SelectionsAndFieldCalculations
 Best place to start, you can use these in the python window.
 These examples should be cleaned a little more.
