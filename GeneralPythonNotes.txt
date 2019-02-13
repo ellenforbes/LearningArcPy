@@ -1,0 +1,81 @@
+Python is not a compiled code.   It goes line by line, which means it runs until it finishes or it breaks.
+Python is a strongly typed language.
+
+
+Comments:
+Commenting uses a # for single line comment and """ for multiple line comment
+
+
+Variable types:
+Integers (1, 2, 3, 4)
+Floating points (0.2, 1.2, 4.329821)
+Strings("hello world")
+
+
+Operators:
++ (plus) is for adding integers floating points or strings
+- (minus) is only for integers or floating points
+/ (division) is for integers or floating points
+* (multiplication) is for integers, floating points or strings
+% (mod, remainder) is for integers or floating points
+
+!= (not equals) - works for integers and strings
+== (equals) - works for integers and strings
+> (greater than)
+>= (greater than or equal to)
+< (less than)
+<= (less than or equal to)
+is (checks equality)
+is not (checks inequality)
+
+not  (this negates a boolean)
+
+booleans = True; False
+list = [2,3,4]
+
+
+Functions:
+int (this changes a string to an integer)
+str (this changes an integer to a string)
+
+
+Method: (for objects)
+.title() - convert string to title case
+.upper() - convert string to upper case
+[0:5]  - string slicing
+[-4:]  - slices from the end
+.strip() - removes both leading and trailing spaces
+.replace(" ", "") - removes all spaces
+.sub(' +', ' ')
+.replace("old", "new") - replaces a string or part thereof
+.split(',') - allows us to split one long string on a character
+len() - tells us the number of the characters in a string
+.index("x") - searches the string and returns the number at which a particilar character is found
+.isdigit() returns a boolean on whether the object is integers or not
+
+
+Escape Characters:
+\n - new line
+\t - tab
+\ cancels out special meaning of the character that comes after it (i.e. for quotes)
+r before a string means raw, escape characters will be ignored
+
+
+Arcpy:
+arcpy.mapping - gives access to maps, data frames and layers
+arcpy.da - gives access to individual features in a feature class and records in a table
+
+
+Loops:
+Counted For loop - does something x number of times
+for i in range (1,10):
+	print i, 'still counting'
+List For loop - do something once for each element in a list
+myList = 'parcels', 'buildings', 'waterlines'
+for eachFC in myList:
+	print eachFc
+While loop - do something while some condition is true
+x = 10
+while x < 100:
+print x
+x = x*2

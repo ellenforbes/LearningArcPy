@@ -1,6 +1,6 @@
 import arcpy, os, csv
 
-locationDB = r"\\Global.arup.com\london\PTG\ICL-JOBS\PLP General\GIS\!JOBS\HS2_Phase2B_EOC_GIS\05 Internal Project Data\00-1 WIP\01 Data\DataToGoToSDE\REF_ADM.gdb"
+locationDB = r"\\Global.com\london\PTG\05 Internal Project Data\00-1 WIP\01 Data\DataToGoToSDE\REF_ADM.gdb"
 locationCSV = r"C:\Users\Ellen.Ketteridge\Desktop\REF_ADM.csv "
 
 fcs = []
